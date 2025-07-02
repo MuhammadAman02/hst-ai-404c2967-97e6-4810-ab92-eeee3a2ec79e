@@ -1,0 +1,24 @@
+# Auto-generated requirements for production deployment
+# All versions intentionally unspecified to avoid conflicts
+# Run: pip install -r requirements.txt
+
+# Core Framework
+nicegui
+uvicorn[standard]
+
+# Configuration
+python-dotenv
+
+# Database
+sqlalchemy
+alembic
+
+# File handling for product images
+python-multipart
+pillow
+
+# Authentication for admin
+passlib[bcrypt]
+
+# To verify installation:
+# python -c "import nicegui, uvicorn, sqlalchemy, pillow; print('All dependencies installed successfully')"
